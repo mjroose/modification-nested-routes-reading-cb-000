@@ -3835,3 +3835,12 @@ Processing by PostsController#new as HTML
   Rendered posts/_form.html.erb (14.5ms)
   Rendered posts/new.html.erb within layouts/application (15.7ms)
 Completed 200 OK in 36ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/authors/1/posts/new" for 98.222.177.136 at 2018-11-26 17:59:02 +0000
+Cannot render console from 98.222.177.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PostsController#new as HTML
+  Parameters: {"author_id"=>"1"}
+  Rendered posts/_form.html.erb (2.7ms)
+  Rendered posts/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.0ms)
